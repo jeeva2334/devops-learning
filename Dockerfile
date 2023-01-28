@@ -10,6 +10,6 @@ RUN apt-get clean
 WORKDIR /opt/
 
 RUN git clone "https://github.com/sanjay2334/devops-learning.git"
-RUN cd devops-learning
+RUN cd devops-learning/
 EXPOSE 5002
 CMD [ "python3“,"./hello.py” ] 
