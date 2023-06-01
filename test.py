@@ -7,5 +7,9 @@ def min_num():
         if (a>=num):
             a = num
     print("the minimum number is:",a)
+    return a
 
-min_num()
+def test():
+    assert min_num() == 10
+
+test()
